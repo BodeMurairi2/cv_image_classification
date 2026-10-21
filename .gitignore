@@ -1,0 +1,64 @@
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.gz
+*.rar
+*.7z
+
+# Datasets (raw/extracted images)
+data/
+datasets/
+**/train/
+**/test/
+**/val/
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.csv
+
+# Model weights & checkpoints
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.keras
+*.onnx
+*.pkl
+*.joblib
+*.safetensors
+checkpoints/
+models/
+
+# Experiment tracking / logs
+runs/
+logs/
+lightning_logs/
+wandb/
+mlruns/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
